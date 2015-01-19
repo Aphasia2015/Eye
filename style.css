@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: #333; color: #FFF;
 }
 body {
-    background: #000 url(images/bg.jpg) no-repeat 50% 0 fixed;
+    background: #000 url(http://cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
     font: 14px Helvetica, Tahoma, \5B8B\4F53, sans-serif;
 }
 a {
@@ -128,12 +128,16 @@ nav a {
 .hasimg:hover .art-title, .hasimg:hover .art-title a {
     color: #666;
 }
-.thumb {
+.hasimg .thumb {
     display: block;
     width: 280px;
     height: 148px;
     background-position: center;
     background-size: cover;
+}
+.hasimg:hover .thumb {
+    opacity: .8;
+    filter: alpha(opacity=80);
 }
 .page-navigator {
     clear: both;
