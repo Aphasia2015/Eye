@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: #333; color: #FFF;
 }
 body {
-    background: #000 url(images/bg_clear.jpg) no-repeat 50% 0 fixed;
+    background: #000 url(images/bg.jpg) no-repeat 50% 0 fixed;
     font: 14px Helvetica, Tahoma, \5B8B\4F53, sans-serif;
 }
 a {
@@ -258,38 +258,33 @@ footer {
     header {
         padding: 5px;
     }
-    #nav {
-        max-width: 620px;
+    #nav, nav {
+        max-width: 680px;
         margin: 0 auto;
+        position: static;
+        margin: 10px auto;
     }
     #nav li {
         margin: 5px;
+        float: none;
+    }
+    #nav a, nav a {
+        width: auto;
     }
     #articles {
         max-width: 620px;
         margin: 0 auto;
     }
-    #nav, nav {
-        position: static;
-        max-width: 720px;
-        margin: 10px auto;
-    }
-    #nav a, nav a {
-        width: auto;
-    }
-	#nav li {
-		float: none;
-	}
     .backweibo {
         display: none;
     }
     article {
         margin: 10px auto;
-		padding: 10px;
+        padding: 10px;
     }
 }
 @media screen and (max-width: 600px) {
-    #articles {
+    #articles, #nav {
         max-width: 310px;
     }
 }
