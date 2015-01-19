@@ -258,7 +258,7 @@ footer {
         padding: 5px;
     }
     #nav, nav {
-        max-width: 680px;
+        max-width: 620px;
         margin: 0 auto;
         position: static;
         margin: 10px auto;
@@ -269,6 +269,9 @@ footer {
     }
     #nav a, nav a {
         width: auto;
+    }
+    nav {
+        max-width: 680px;
     }
     #articles {
         max-width: 620px;
