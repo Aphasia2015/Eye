@@ -269,19 +269,23 @@ footer {
         max-width: 620px;
         margin: 0 auto;
     }
-    nav {
+    #nav, nav {
         position: static;
         max-width: 720px;
         margin: 10px auto;
     }
-    nav a {
+    #nav a, nav a {
         width: auto;
     }
+	#nav li {
+		float: none;
+	}
     .backweibo {
         display: none;
     }
     article {
         margin: 10px auto;
+		padding: 10px;
     }
 }
 @media screen and (max-width: 600px) {
