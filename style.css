@@ -128,7 +128,7 @@ nav a {
 .hasimg:hover .art-title, .hasimg:hover .art-title a {
     color: #666;
 }
-.hasimg .thumb {
+.thumb {
     display: block;
     width: 280px;
     height: 148px;
