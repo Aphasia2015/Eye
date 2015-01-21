@@ -71,6 +71,7 @@ nav a {
     width: 300px;
     margin: 5px;
     float: left;
+    overflow: hidden;
 }
 .article {
     height: 190px;
@@ -139,6 +140,18 @@ nav a {
 .hasimg:hover .thumb {
     opacity: .8;
     filter: alpha(opacity=80);
+}
+.video {
+    display: none;
+}
+.hasvid .video {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(//cdn.benyuanzu.com/images/video.png);
+    position: relative;
+    left: 115px;
+    top: 49px;
 }
 .page-navigator {
     clear: both;
@@ -234,6 +247,9 @@ article time {
     margin: 1.2em 0;
     font-weight: 700;
 }
+.vidtip {
+    display: none;
+}
 
 /* comment */
 #comments {
@@ -288,6 +304,12 @@ footer {
     article {
         margin: 10px auto;
         padding: 10px;
+    }
+    .novid .vidtip {
+        display: block;
+        background: #389bcf;
+        color: #fff;
+        text-align: center;
     }
 }
 @media screen and (max-width: 600px) {
