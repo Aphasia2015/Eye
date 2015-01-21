@@ -305,7 +305,7 @@ footer {
         margin: 10px auto;
         padding: 10px;
     }
-    .novid .vidtip {
+    .hasplayer .vidtip {
         display: block;
         background: #389bcf;
         color: #fff;
