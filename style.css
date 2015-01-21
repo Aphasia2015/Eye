@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: #333; color: #FFF;
 }
 body {
-    background: #000 url(http://cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
+    background: #000 url(//cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
     font: 14px Helvetica, Tahoma, \5B8B\4F53, sans-serif;
 }
 a {
@@ -43,7 +43,7 @@ header {
     text-align: center;
     border: 1px solid #dcdcdc;
     color: #dcdcdc;
-	font-size: 16px;
+    font-size: 16px;
     font-family: \5FAE\8F6F\96C5\9ED1;
     font-weight: 700;
     transition: border .3s, background .3s, color .3s;
@@ -256,7 +256,7 @@ footer {
 
 /* mobile */
 @media screen and (max-width: 920px) {
-    #sidebar, #comments, footer {
+    .dnko, #sidebar, #comments, footer {
         display: none;
     }
     header {

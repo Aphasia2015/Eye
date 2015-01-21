@@ -9,6 +9,6 @@
             'tag'       =>  _t('标签 %s 下的文章'),
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
-    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('style.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="//ko.benyuanzu.com/source/style.css" />
 </head>
 <body>

@@ -21,7 +21,7 @@
             <?php while($pages->next()): ?>
             <li<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?>><a href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
             <?php endwhile; ?>
-			<li><a title="韩服新手教程" href="http://ko.benyuanzu.com" target="_blank">韩服</a></li>
+            <li class="dnko"><a title="韩服新手教程" href="http://ko.benyuanzu.com" target="_blank">韩服</a></li>
         </ul>
     </header>
     <div class="wrapper clearfix">
@@ -44,5 +44,3 @@
         </div>
     </div>
 <?php $this->need('footer.php'); ?>
-<script src="<?php $this->options->themeUrl('jquery-2.1.3.min.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('common.js'); ?>"></script>
