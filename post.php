@@ -5,7 +5,7 @@
         <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y年m月d日'); ?></time>
         <div class="content" itemprop="articleBody">
             <?php $this->content(); ?>
-            <p class="vidtip">非常抱歉，您的浏览器可能无法播放此视频。</p>
+            <p class="vidtip">您正在使用移动设备，可能无法观看此视频。</p>
         </div>
         <div id="comments">
             <script type="text/javascript">
