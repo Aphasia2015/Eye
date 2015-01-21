@@ -37,7 +37,7 @@
                 <div class="art-content" itemprop="articleBody">
                     <?php $this->excerpt(80, '...'); ?>
                 </div>
-                <time class="art-time" datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('F j'); ?></time>
+                <time class="art-time" datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('m月d日'); ?></time>
             </section>
             <?php endwhile; ?>
             <?php $this->pageNav('&laquo;','&raquo;'); ?>
