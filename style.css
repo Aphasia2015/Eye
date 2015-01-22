@@ -117,7 +117,7 @@ nav a {
 .art-time {
     display: block;
     font: 12px \5FAE\8F6F\96C5\9ED1;
-    padding-top: 12px;
+    margin-top: 12px;
     color: #a0a0a0;
 }
 .hasimg {
