@@ -150,10 +150,8 @@ nav a {
     opacity: .8;
     filter: alpha(opacity=80);
 }
-.video {
-    display: none;
-}
-.hasvid .video {
+.hasvid .thumb:after {
+    content: "";
     display: block;
     width: 50px;
     height: 50px;
@@ -280,7 +278,7 @@ footer {
 }
 
 /* mobile */
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1260px) {
     .dnko, #sidebar, #comments, footer {
         display: none;
     }
@@ -305,9 +303,6 @@ footer {
         position: static;
         float: none;
     }
-    nav {
-        max-width: 620px;
-    }
     #nav {
         display: none;
         background: #333;
@@ -323,8 +318,9 @@ footer {
         max-width: 680px;
     }
     #articles {
-        max-width: 620px;
-        margin: 45px auto;
+        max-width: 930px;
+        margin: 0 auto;
+        padding: 45px 0 10px;
     }
     .backweibo {
         display: none;
@@ -333,14 +329,19 @@ footer {
         margin: 10px auto;
         padding: 10px;
     }
-    .hasplayer .vidtip {
+    .vidtip {
         display: block;
         background: #389bcf;
         color: #fff;
         text-align: center;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
+    #articles {
+        max-width: 620px;
+    }
+}
+@media screen and (max-width: 640px) {
     #articles {
         max-width: 310px;
     }
