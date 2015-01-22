@@ -10,8 +10,9 @@
 
  $this->need('header.php');
  ?>
-    <header class="wrapper">
-        <ul id="nav" class="clearfix">
+    <header class="wrapper clearfix">
+        <h1 id="menu">DN本源计划</h1>
+        <ul id="nav">
             <li<?php if($this->is('index')): ?> class="current"<?php endif; ?>><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
             <?php $this->widget('Widget_Metas_Category_List')->to($category); ?>
             <?php while ($category->next()): ?>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>BrDev</title>
 <style>
 body {
-    background: url(http://cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
+    background: url(//cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
 }
 #wrap {
     width: 340px;
