@@ -6,7 +6,9 @@
         <div class="content" itemprop="articleBody">
             <?php $this->content(); ?>
         </div>
+        <?php if ($this->is('post')): ?>
         <div id="comments"></div>
+        <?php endif; ?>
     </article>
     <nav>
         <a href="<?php $this->options->siteUrl(); ?>" title="浏览更多">浏览更多</a>
