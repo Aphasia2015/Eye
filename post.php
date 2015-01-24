@@ -6,21 +6,7 @@
         <div class="content" itemprop="articleBody">
             <?php $this->content(); ?>
         </div>
-        <div id="comments">
-            <script>
-                (function(){
-                    var url = "//widget.weibo.com/distribution/comments.php?width=0&url=auto&color=cccccc,ffffff,555555,00a3cf,cccccc,f0f0f0&colordiy=1&appkey=840464270&iframskin=1&dpc=1";
-                    url = url.replace("url=auto", "url=" + encodeURIComponent(document.URL));
-                    document.write('<iframe id="WBCommentFrame" src="' + url + '" scrolling="no" frameborder="0" style="width:100%"></iframe>');
-                })();
-            </script>
-            <script src="//tjs.sjs.sinajs.cn/open/widget/js/widget/comment.js"></script>
-            <script>
-                window.WBComment.init({
-                    "id": "WBCommentFrame"
-                });
-            </script>
-        </div>
+        <div id="comments"></div>
     </article>
     <nav>
         <a href="<?php $this->options->siteUrl(); ?>" title="浏览更多">浏览更多</a>

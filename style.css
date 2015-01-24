@@ -260,6 +260,7 @@ article time {
 
 /* comment */
 #comments {
+    display: none;
     border-top: 1px solid #dcdcdc;
     margin-top: 20px;
     padding-top: 20px;
@@ -280,7 +281,7 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 1260px) {
-    #comments, .dnko {
+    .dnko {
         display: none;
     }
     header {
@@ -354,7 +355,7 @@ footer {
     body {
         background: #000 url(//cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
     }
-    #sidebar, footer {
+    #sidebar, #comments, footer {
         display: block;
     }
 }
