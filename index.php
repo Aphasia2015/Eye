@@ -18,10 +18,6 @@
             <?php while ($category->next()): ?>
             <li<?php if ($this->is('post')): ?><?php if($this->category == $category->slug): ?> class="current"<?php endif; ?><?php else: ?><?php if ($this->is('category', $category->slug)): ?> class="current"<?php endif; ?><?php endif; ?>><a href="<?php $category->permalink(); ?>" ><?php $category->name(); ?></a></li>
             <?php endwhile; ?>
-            <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
-            <?php while($pages->next()): ?>
-            <li<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?>><a href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
-            <?php endwhile; ?>
             <li class="dnko"><a title="韩服新手教程" href="http://ko.benyuanzu.com" target="_blank">韩服</a></li>
         </ul>
     </header>
