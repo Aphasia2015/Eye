@@ -320,7 +320,11 @@ footer {
         max-width: 680px;
     }
     nav a {
-        margin: 10px 0;
+        margin: 0;
+        padding: 10px 0;
+        border: none;
+        background: #000;
+        color: #fff;
     }
     #articles {
         max-width: 930px;
