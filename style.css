@@ -9,6 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: #333; color: #FFF;
 }
 body {
+    background: #333;
     font: 14px Helvetica, Tahoma, \5B8B\4F53, sans-serif;
 }
 a {
@@ -281,9 +282,6 @@ footer {
 @media screen and (max-width: 1260px) {
     #comments, .dnko {
         display: none;
-    }
-    body {
-        background: #333;
     }
     header {
         padding: 0;
