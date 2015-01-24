@@ -316,6 +316,9 @@ footer {
     nav {
         max-width: 680px;
     }
+    nav a {
+        margin: 10px 0;
+    }
     #articles {
         max-width: 930px;
         margin: 0 auto;
@@ -325,7 +328,7 @@ footer {
         display: none;
     }
     article {
-        margin: 10px auto;
+        margin: 0 auto;
         padding: 10px;
     }
     .vidtip {

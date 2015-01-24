@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>BrDev</title>
+<title>DN本源计划</title>
 <style>
 body {
     background: url(//cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
