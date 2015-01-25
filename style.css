@@ -3,10 +3,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* designed by banri */
 ::-moz-selection {
-    background: #333; color: #FFF;
+    background: #333; color: #fff;
 }
 ::selection {
-    background: #333; color: #FFF;
+    background: #333; color: #fff;
 }
 body {
     background: #333;
