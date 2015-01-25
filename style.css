@@ -73,7 +73,6 @@ nav a {
     overflow: auto;
 }
 #sidebar {
-    display: none;
     height: 590px;
 }
 #sidebar, .article {
@@ -260,7 +259,6 @@ article time {
 
 /* comment */
 #comments {
-    display: none;
     border-top: 1px solid #dcdcdc;
     margin-top: 20px;
     padding-top: 20px;
@@ -268,7 +266,6 @@ article time {
 
 /* footer */
 footer {
-    display: none;
     width: 100%;
     padding: 10px 0;
     margin-top: 40px;
@@ -281,7 +278,7 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 1260px) {
-    .dnko {
+    #sidebar, #comments, footer, .dnko {
         display: none;
     }
     header {
@@ -366,8 +363,5 @@ footer {
 @media screen and (min-width: 1261px) {
     body {
         background: #000 url(//cdn.benyuanzu.com/images/bg.jpg) no-repeat 50% 0 fixed;
-    }
-    #sidebar, #comments, footer {
-        display: block;
     }
 }
