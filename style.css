@@ -266,14 +266,15 @@ article time {
 
 /* footer */
 footer {
-    width: 100%;
-    padding: 10px 0;
+    box-sizing: border-box;
     margin-top: 40px;
-    border-top: 3px solid #666;
-    background: #fff;
+    padding: 20px 5px;
     font: 12px \5FAE\8F6F\96C5\9ED1;
-    color: #666;
+    color: #fff;
     line-height: 20px;
+}
+footer a {
+    color: #fff;
 }
 
 /* responsive */
