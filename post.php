@@ -3,7 +3,7 @@
     <article itemscope itemtype="//schema.org/BlogPosting">
         <h1 itemprop="name headline"><?php $this->title() ?></h1>
         <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y年n月j日'); ?></time>
-        <div class="content" itemprop="articleBody">
+        <div id="content" itemprop="articleBody">
             <?php $this->content(); ?>
         </div>
         <?php if ($this->is('post')): ?>

@@ -218,28 +218,28 @@ article time {
     border-bottom: 1px solid #dcdcdc;
     text-align: right;
 }
-.content {
+#content {
     margin-top: 1em;
     color: #555;
     line-height: 1.6em;
     overflow: hidden;
 }
-.content p {
+#content p {
     margin: 1.2em 0;
 }
-.content strong {
+#content strong {
     font-weight: bold;
 }
-.content em {
+#content em {
     font-style: italic;
 }
-.content a {
+#content a {
     color: #00a3cf;
 }
-.content a:hover {
+#content a:hover {
     color: #017cb9;
 }
-.content img {
+#content img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -247,7 +247,7 @@ article time {
     border: 5px solid #999;
     margin: 0 auto;
 }
-.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
     padding-left: 15px;
     border-left: 5px solid #00a3cf;
     margin: 1.2em 0;
@@ -333,11 +333,11 @@ footer {
         padding: 10px;
         background: #fafafa;
     }
-    .content {
+    #content {
         font-size: 16px;
         color: #333;
     }
-    .content img {
+    #content img {
         border: none;
     }
     .backweibo {
