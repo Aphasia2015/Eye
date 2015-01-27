@@ -3,7 +3,7 @@ $(function () {
     $("#content").find("a").attr("target", "_blank").not("[href*='benyuanzu.com']").attr("rel", "nofollow");
 
     $("#menu").on("click", function () {
-        $("#nav").toggle(300);
+        $("#nav").toggleClass("show");
     });
 
     if ($(window).width() > 1260) {

@@ -308,8 +308,13 @@ footer a {
         padding: 45px 0 10px;
     }
     #nav {
-        display: none;
+        overflow: hidden;
         background: #333;
+        height: 0;
+        transition: height .3s;
+    }
+    #nav.show {
+        height: 240px;
     }
     #nav li {
         margin: 5px;
