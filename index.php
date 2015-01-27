@@ -37,8 +37,8 @@
             <?php endwhile; ?>
             <?php $this->pageNav('&laquo;','&raquo;'); ?>
         </div>
-    <footer>
-        &copy; 2015 DN本源计划<br><a href="//typecho.org" target="_blank">Powered by Typecho</a>
+    <footer class="clearfix">
+        &copy; 2015 DN本源计划<br>Powered by <a href="//typecho.org" target="_blank">Typecho</a>
     </footer>
     </div>
 <?php $this->need('footer.php'); ?>
