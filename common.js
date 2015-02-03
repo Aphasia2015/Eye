@@ -2,8 +2,8 @@ $(function () {
     $("#articles").find(".article").has(".thumb").addClass("hasimg").filter(":contains(\u005b\u89c6\u9891\u005d)").addClass("hasvid");
     $("#content").find("a").attr("target", "_blank").not("[href*='benyuanzu.com']").attr("rel", "nofollow");
 
-    $("#menu").on("click", function () {
-        $("#nav").toggleClass("show");
+    $("#menu").click(function () {
+        $("#nav").slideToggle(300);
     });
 
     if ($(window).width() > 1260) {

@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: #333; color: #fff;
 }
 body {
-    background: #333;
+    background: #eee;
     font: 14px Helvetica, Tahoma, \5B8B\4F53, sans-serif;
 }
 a {
@@ -186,6 +186,7 @@ nav a {
 }
 .page-navigator a:hover, .page-navigator .current a {
     background: #9d2536;
+    color: #fff;
 }
 
 /* content */
@@ -278,7 +279,7 @@ footer a {
 
 /* responsive */
 @media screen and (max-width: 1260px) {
-    #sidebar, #comments, footer, .dnko {
+    #sidebar, #comments, footer, .dnko, .backweibo {
         display: none;
     }
     header {
@@ -292,7 +293,6 @@ footer a {
     #menu {
         display: block;
         width: 300px;
-        margin: 0 5px;
         background: #fff url(//cdn.benyuanzu.com/images/menu.png) no-repeat 10px 10px;
         color: #333;
     }
@@ -308,17 +308,16 @@ footer a {
         padding: 45px 0 10px;
     }
     #nav {
-        overflow: hidden;
+        display: none;
         background: #333;
-        height: 0;
-        transition: height .3s;
-    }
-    #nav.show {
-        height: 240px;
     }
     #nav li {
-        margin: 5px;
+        margin: 0;
         float: none;
+    }
+    #nav a {
+        border: none;
+        border-top: 1px dotted #666;
     }
     #nav a, nav a {
         width: auto;
@@ -333,6 +332,9 @@ footer a {
         background: #389bcf;
         color: #fff;
     }
+    .page-navigator a {
+        color: #666;
+    }
     article {
         margin: 0 auto;
         padding: 10px;
@@ -344,9 +346,6 @@ footer a {
     }
     #content img {
         border: none;
-    }
-    .backweibo {
-        display: none;
     }
     #vidtip {
         display: block;
