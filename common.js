@@ -1,8 +1,10 @@
 $(function () {
-    $("#articles").find(".article").has(".thumb").addClass("hasimg").filter(":contains(\u005b\u89c6\u9891\u005d)").addClass("hasvid");
-    $("#content").find("a").attr("target", "_blank").not("[href*='benyuanzu.com']").attr("rel", "nofollow");
+    var $article = $("#articles").find(".article"),
+    $link = $("#content").find("a");
+    $article.has(".thumb").addClass("hasimg").filter(":contains(\u005b\u89c6\u9891\u005d)").addClass("hasvid");
+    $link.attr("target", "_blank").not("[href*='benyuanzu.com']").attr("rel", "nofollow");
 
-    $("#menu").click(function () {
+    $("#menu").on('click', function () {
         $("#nav").slideToggle(300);
     });
 
